@@ -59,7 +59,7 @@ var lightColor = getComputedStyle(document.body).getPropertyValue('--light');
         $("body").prepend('\
           <div class= "item-purchase-banner">\
             <p class="banner-text">Self Service Bank Log Wizard!            </p>\
-              <a href="https://www.whizzlog.com/register.php" target="_blank" class= "banner-button btn btn-primary btn-icon">\
+              <a href="/register" target="_blank" class= "banner-button btn btn-primary btn-icon">\
                 <i class="mdi mdi-cart"></i> Create New Account\
               </a>\
               <span class="toggler-close"><i class="mdi mdi-close"></i></span>\
